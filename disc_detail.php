@@ -27,6 +27,7 @@
         <title>PDO - Détail</title>
     </head>
     <body>
+        
         Title : <?=$mydisc->disc_title ?>
         Nom de l'artiste : <?= $mydisc->artist_name ?>
         Year : <?= $mydisc->disc_year ?>

@@ -52,17 +52,26 @@
         <br><br>
 
         <label for="genre">Genre :</label><br>
-        <input type="text" name="genre" id="Genre">
+        <input type="text" name="genre" id="genre">
         <br><br>
 
         <label for="artist">Artiste</label><br>
         <select name="artist" id="artist">
         <option disabled selected>Selection un artiste</option>
+
         <?php foreach ($mydisc as $artist):?>
             <option value="<?=$artist->artist_id?>"><?=$artist->artist_name?></option>
             <?php endforeach; ?>
 
         </select>
+        <br>
+        <br>
+
+        <label for="Picture">Picture</label><br>
+        <input type="file" name="picture" id="picture">
+        <br>
+        <br>
+        
 
 
         <input type="submit" value="Ajouter">

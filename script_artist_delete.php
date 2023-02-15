@@ -22,3 +22,6 @@
     TrtRedirection:
     header("Location: artists.php");
     exit;
+
+    // test
+    
